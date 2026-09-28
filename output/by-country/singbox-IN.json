@@ -24,20 +24,9 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇮🇳 印度 (India) 02 - xiaohe",
-      "server": "152.67.8.205",
-      "server_port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-      "security": "auto",
-      "transport": {
-        "type": "ws"
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "🇮🇳 印度 (India) 03 - xiaohe",
-      "server": "35.244.28.130",
+      "tag": "🇮🇳 印度 (India) 02 - xiaohe",
+      "server": "tttyder.wsone.icu",
       "server_port": 443,
       "password": "M7v%w11Se*",
       "tls": {
@@ -47,26 +36,12 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "🇮🇳 印度 (India) 04 - xiaohe",
-      "server": "34.131.228.210",
-      "server_port": 443,
-      "password": "M7v%w11Se*",
-      "tls": {
-        "enabled": true,
-        "server_name": "hyfuuf6.wsone.icu",
-        "insecure": true
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇮🇳 印度 (India) 01 - xiaohe",
-        "🇮🇳 印度 (India) 02 - xiaohe",
-        "🇮🇳 印度 (India) 03 - xiaohe",
-        "🇮🇳 印度 (India) 04 - xiaohe"
+        "🇮🇳 印度 (India) 02 - xiaohe"
       ]
     },
     {
@@ -74,9 +49,7 @@
       "tag": "auto",
       "outbounds": [
         "🇮🇳 印度 (India) 01 - xiaohe",
-        "🇮🇳 印度 (India) 02 - xiaohe",
-        "🇮🇳 印度 (India) 03 - xiaohe",
-        "🇮🇳 印度 (India) 04 - xiaohe"
+        "🇮🇳 印度 (India) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
