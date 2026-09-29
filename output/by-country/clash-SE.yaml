@@ -5,35 +5,35 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 瑞典 (Sweden) 01 - xiaohe
+  server: 13.48.104.64
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇸🇪 瑞典 (Sweden) 02 - xiaohe
   server: 172.238.244.13
   port: 17000
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
-- name: 🇸🇪 瑞典 (Sweden) 02 - xiaohe
-  server: 13.60.213.145
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 🇸🇪 瑞典 (Sweden) 03 - xiaohe
-  server: 51.20.122.188
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇸🇪 瑞典 (Sweden) 04 - xiaohe
   server: 13.62.228.76
   port: 443
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 🇸🇪 瑞典 (Sweden) 04 - xiaohe
+  server: 51.20.143.248
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 🇸🇪 瑞典 (Sweden) 05 - xiaohe
-  server: 51.20.96.231
+  server: 13.60.213.145
   port: 443
   udp: true
   type: ss
@@ -47,6 +47,13 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
 - name: 🇸🇪 瑞典 (Sweden) 07 - xiaohe
+  server: 51.20.122.188
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇸🇪 瑞典 (Sweden) 08 - xiaohe
   server: 193.42.39.10
   port: 33743
   udp: true
@@ -56,30 +63,25 @@ proxies:
   reality-opts:
     public-key: wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY
   servername: www.google.com
-  client-fingerprint: chrome
+  client-fingerprint: qq
   network: grpc
   grpc-opts:
     grpc-service-name: TunService
-- name: 🇸🇪 瑞典 (Sweden) 08 - xiaohe
-  server: surstreming.vvzzkontaktezzvv.garden
-  port: 443
+- name: 🇸🇪 瑞典 (Sweden) 09 - xiaohe
+  server: 62.60.159.81
+  port: 2053
   udp: true
   type: vless
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-  flow: xtls-rprx-vision
+  uuid: fc00adfb-232a-46ce-8b93-0c70e516aa8a
   tls: true
   reality-opts:
-    public-key: x6p656szvu_3CKLsJ4NtkooRvdTVGx7IoPca_p58_jA
-    short-id: fb442438e2223836
-  servername: surstreming.vvzzkontaktezzvv.garden
-  client-fingerprint: random
-- name: 🇸🇪 瑞典 (Sweden) 09 - xiaohe
-  server: 13.49.76.55
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
+    public-key: ygmJxS-Mc7g0buNSUTVGhazT-FoBjyYtLLfUYIQxFTw
+    short-id: d0ea1847066af5a6
+  servername: www.samsung.com
+  client-fingerprint: safari
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpce5bb9e71
 - name: 🇸🇪 瑞典 (Sweden) 10 - xiaohe
   server: 2.27.14.218
   port: 2096
@@ -96,27 +98,53 @@ proxies:
     headers:
       Host: stf7697.rumedia-cdn.com
 - name: 🇸🇪 瑞典 (Sweden) 11 - xiaohe
+  server: secas.astrafic.ru
+  port: 443
+  udp: true
+  type: vless
+  uuid: 3d9daa27-6283-406d-a2d4-c6f22c635a14
+  tls: true
+  servername: secas.astrafic.ru
+  skip-cert-verify: false
+  client-fingerprint: edge
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc
+- name: 🇸🇪 瑞典 (Sweden) 12 - xiaohe
+  server: 5.157.10.148
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: x6p656szvu_3CKLsJ4NtkooRvdTVGx7IoPca_p58_jA
+    short-id: fb442438e2223836
+  servername: surstreming.vvzzkontaktezzvv.garden
+  client-fingerprint: random
+- name: 🇸🇪 瑞典 (Sweden) 13 - xiaohe
+  server: 51.20.96.231
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇸🇪 瑞典 (Sweden) 14 - xiaohe
+  server: 84.252.100.204
+  port: 8227
+  udp: true
+  type: hysteria2
+  password: ODM2MzExOTcyMCwxNzkwNTMyNzE0ksak7YOGMD
+  sni: sw.lumenvpn.tech
+  skip-cert-verify: false
+- name: 🇸🇪 瑞典 (Sweden) 15 - xiaohe
   server: 70.34.212.124
   port: 8388
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: AxIYWtskJWIIaefW
-- name: 🇸🇪 瑞典 (Sweden) 12 - xiaohe
-  server: 62.60.159.81
-  port: 2053
-  udp: true
-  type: vless
-  uuid: fc00adfb-232a-46ce-8b93-0c70e516aa8a
-  tls: true
-  reality-opts:
-    public-key: ygmJxS-Mc7g0buNSUTVGhazT-FoBjyYtLLfUYIQxFTw
-    short-id: d0ea1847066af5a6
-  servername: www.samsung.com
-  client-fingerprint: safari
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpce5bb9e71
 proxy-groups:
 - name: PROXIES
   type: select
@@ -134,6 +162,9 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 10 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 11 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 12 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 13 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 14 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 15 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -151,5 +182,8 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 10 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 11 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 12 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 13 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 14 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 15 - xiaohe
 rules:
 - MATCH,PROXIES
