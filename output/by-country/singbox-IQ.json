@@ -6,26 +6,19 @@
     {
       "type": "vless",
       "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "104.21.29.250",
-      "server_port": 443,
-      "uuid": "af0db32b-2cb0-48c7-b04e-96003f8c2369",
+      "server": "188.114.97.1",
+      "server_port": 2053,
+      "uuid": "0b3e7958-e5c4-498f-ab21-b49686f95d2d",
       "tls": {
         "enabled": true,
-        "server_name": "dl2uf-ivdezilz3e86rk18.hhvt37tjm2xbosql5hxogn-y.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "bold-term-4edd.mbigspot.workers.dev",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/vl/ZONyHuyg0cpDAFQTzm3u?ed=2560",
+        "path": "/",
         "headers": {
-          "Host": "dl2uf-ivdezilz3e86rk18.hhvt37tjm2xbosql5hxogn-y.workers.dev"
+          "Host": "bold-term-4edd.mbigspot.workers.dev"
         }
       }
     },
