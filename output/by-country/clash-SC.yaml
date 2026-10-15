@@ -9,11 +9,11 @@ proxies:
   port: 10443
   udp: true
   type: trojan
-  password: 1f02add4-bdc6-4ee2-af47-33c4503efdcf
+  password: a8da71ab-e827-4d6b-92d4-af2ec39e58c0
   sni: 45.205.27.78
   skip-cert-verify: true
 - name: 🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe
-  server: 156.226.168.221
+  server: hk3n.wxgqlfx.vip
   port: 35193
   udp: true
   type: vless

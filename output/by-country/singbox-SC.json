@@ -8,7 +8,7 @@
       "tag": "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe",
       "server": "45.205.27.78",
       "server_port": 10443,
-      "password": "1f02add4-bdc6-4ee2-af47-33c4503efdcf",
+      "password": "a8da71ab-e827-4d6b-92d4-af2ec39e58c0",
       "tls": {
         "enabled": true,
         "server_name": "45.205.27.78",
@@ -18,7 +18,7 @@
     {
       "type": "vless",
       "tag": "🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe",
-      "server": "156.226.168.221",
+      "server": "hk3n.wxgqlfx.vip",
       "server_port": 35193,
       "uuid": "35cbae61-ee10-4cb9-abb8-4950b35e9851",
       "flow": "xtls-rprx-vision",
