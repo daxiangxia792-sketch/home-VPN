@@ -57,7 +57,7 @@
         "server_name": "udemy.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": ""
         },
         "reality": {
           "enabled": true,
@@ -69,21 +69,19 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 04 - xiaohe",
-      "server": "46.8.113.64",
+      "server": "185.78.76.166",
       "server_port": 443,
-      "uuid": "55ad002b-6cdf-4d76-81bb-91f3f605afc5",
-      "flow": "xtls-rprx-vision",
+      "uuid": "f27b6f65-6e59-4f89-b929-afa397ca587f",
       "tls": {
         "enabled": true,
-        "server_name": "www.zabbix.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "_SukRXeT9BnvrE3eQTrw8vwsrhu7w3hNTMTEK2xzHEw",
-          "short_id": ""
+        "server_name": "n.bitpulse.me",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/019bcbad-3813-7cce-8786-3ac0e418f128",
+        "headers": {
+          "Host": "n.bitpulse.me"
         }
       }
     },
@@ -92,7 +90,7 @@
       "tag": "🇨🇿 捷克 (Czech) 05 - xiaohe",
       "server": "193.124.17.190",
       "server_port": 443,
-      "uuid": "6dfc9149-1ff9-41c3-8563-0ef284381731",
+      "uuid": "4d017db2-7655-4276-9557-e2ec25b04ee7",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -104,7 +102,7 @@
         "reality": {
           "enabled": true,
           "public_key": "J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk",
-          "short_id": "1374bddeb25d"
+          "short_id": "ee1716767f9b"
         }
       }
     },
