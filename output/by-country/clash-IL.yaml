@@ -26,18 +26,18 @@ proxies:
   sni: exploreeducationsectoropportunitiestodayandadvancecareers.com
   skip-cert-verify: false
 - name: 🇮🇱 以色列 (Israel) 03 - xiaohe
-  server: 77.91.69.169
-  port: 19226
+  server: connect2.accessgate.link
+  port: 2086
   udp: true
   type: vless
-  uuid: f0b144bd-4c44-440d-b630-d79ec82cad3a
+  uuid: 2f6c70f3-206a-4bc1-ac1f-6b70153f9c73
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: PQjgf7GxBd2tDXf0zl9Z5rTZo7LdsWj0hGZLH-lJ-Uk
-    short-id: 7c
-  servername: yahoo.com
-  client-fingerprint: chrome
+    public-key: CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko
+    short-id: b0d8c9a285c70f6f
+  servername: unpkg.com
+  client-fingerprint: edge
 proxy-groups:
 - name: PROXIES
   type: select

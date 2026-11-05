@@ -39,21 +39,21 @@
     {
       "type": "vless",
       "tag": "🇮🇱 以色列 (Israel) 03 - xiaohe",
-      "server": "77.91.69.169",
-      "server_port": 19226,
-      "uuid": "f0b144bd-4c44-440d-b630-d79ec82cad3a",
+      "server": "connect2.accessgate.link",
+      "server_port": 2086,
+      "uuid": "2f6c70f3-206a-4bc1-ac1f-6b70153f9c73",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "unpkg.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
-          "public_key": "PQjgf7GxBd2tDXf0zl9Z5rTZo7LdsWj0hGZLH-lJ-Uk",
-          "short_id": "7c"
+          "public_key": "CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko",
+          "short_id": "b0d8c9a285c70f6f"
         }
       }
     },
