@@ -6,7 +6,7 @@
     {
       "type": "shadowsocks",
       "tag": "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
-      "server": "151.241.19.29",
+      "server": "151.241.19.36",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -14,7 +14,7 @@
     {
       "type": "shadowsocks",
       "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
-      "server": "151.241.19.36",
+      "server": "151.241.19.29",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -38,106 +38,12 @@
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
-      "server": "185.125.103.62",
-      "server_port": 8082,
-      "uuid": "13e954cf-8948-4f02-947a-eb4fe97f290d",
-      "tls": {
-        "enabled": true,
-        "server_name": "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
-      "server": "57.129.130.63",
-      "server_port": 52014,
-      "uuid": "d731cf09-79a6-4647-aabe-8e0fda4fe3be",
-      "tls": {
-        "enabled": true,
-        "server_name": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
-      "server": "38.180.11.182",
-      "server_port": 12146,
-      "method": "aes-128-gcm",
-      "password": "37a7c5fb6a3109207a0860d30bedb37c"
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
       "server": "95.174.68.188",
       "server_port": 14430,
       "uuid": "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0",
       "transport": {
         "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "95.174.68.188"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 08 - xiaohe",
-      "server": "45.77.241.190",
-      "server_port": 8441,
-      "uuid": "d492bf74-6555-4b57-94f0-52b56adbc760",
-      "tls": {
-        "enabled": true,
-        "server_name": "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 09 - xiaohe",
-      "server": "84.235.244.108",
-      "server_port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "uae.unixzone.us"
-        }
+        "path": "/vless"
       }
     },
     {
@@ -148,12 +54,7 @@
         "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 08 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 09 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 04 - xiaohe"
       ]
     },
     {
@@ -163,12 +64,7 @@
         "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 08 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 09 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
